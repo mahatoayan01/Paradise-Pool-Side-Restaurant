@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="igGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#igGrad1)"/>
+  <circle cx="250" cy="220" r="80" fill="#ffffff" fill-opacity="0.1" stroke="#5eead4" stroke-width="2"/>
+  <text x="250" y="235" font-family="sans-serif" font-size="54" text-anchor="middle">🍹🌊</text>
+  <text x="250" y="340" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">Sunset by the Pool</text>
+  <text x="250" y="370" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#99f6e4">@paradisepoolside_blr</text>
+  <rect x="125" y="440" width="250" height="26" rx="13" fill="#042f2e" stroke="#14b8a6"/>
+  <text x="250" y="457" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#5eead4">Replace with Instagram photo</text>
+</svg>
+

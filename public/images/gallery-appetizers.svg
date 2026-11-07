@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#292524"/>
+  <circle cx="400" cy="270" r="120" fill="#1c1917" stroke="#d97706" stroke-width="2"/>
+  <text x="400" y="270" font-family="sans-serif" font-size="60" text-anchor="middle">🍄🌶️</text>
+  <text x="400" y="380" font-family="'Playfair Display', serif" font-size="32" font-weight="700" text-anchor="middle" fill="#ffffff">Crispy Bites &amp; Starters</text>
+  <text x="400" y="420" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" text-anchor="middle" fill="#d6d3d1">Mushroom Dry, Manchurian &amp; Egg Chilli</text>
+  <rect x="250" y="530" width="300" height="34" rx="17" fill="#1c1917" stroke="#78716c"/>
+  <text x="400" y="552" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#d6d3d1">Replace with real camera photo in /public/images</text>
+</svg>
+

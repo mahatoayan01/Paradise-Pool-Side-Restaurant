@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #0f766e;
+    --color-primary-dark: #042f2e;
+    --color-accent: #f59e0b;
+    --color-pool-water: #14b8a6;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Glass & Shimmer styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-panel-dark {
+  background: rgba(4, 47, 46, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Subtle water shimmer animation */
+@keyframes waterWave {
+  0% { transform: translateY(0) scaleY(1); }
+  50% { transform: translateY(-4px) scaleY(1.02); }
+  100% { transform: translateY(0) scaleY(1); }
+}
+
+.animate-water-gentle {
+  animation: waterWave 6s ease-in-out infinite;
+}
+
+/* Custom scrollbar for menu horizontal chips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
